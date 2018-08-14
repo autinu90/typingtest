@@ -101,7 +101,7 @@ function countdown() {
         time--;
     } else if (time === 0) {
         //Game Over
-        console.log('Game Over');
+        //  console.log('Game Over');
         isPlaying = false;
 
     }
