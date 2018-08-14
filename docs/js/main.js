@@ -20,7 +20,7 @@ const words = [
 
 //Initialize Game
 function init() {
-    console.log('Game Initialized');
+    //console.log('Game Initialized');
     //load word from array
     showWord(words);
 }
@@ -28,7 +28,7 @@ function init() {
 //Pick &show random word
 function showWord(words) {
     //Generate random array index
-    const randIndex = (Math.floor.random() * words.length);
+    const randIndex = Math.floor(Math.random() * words.length);
     // Output random word
     currentWord.innerHTML = words[randIndex];
 }
