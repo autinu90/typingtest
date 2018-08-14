@@ -61,7 +61,7 @@ function startMatch() {
 }
 // Match currentWord to wordInput
 function matchWords() {
-    if (wordInput.value === currentWord.innerHTML) {
+    if (wordInput.value === lcase(currentWord.innerHTML)) {
         message.innerHTML = 'Correct! Keep Going!';
         return true;
     } else {
