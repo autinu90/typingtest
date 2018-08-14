@@ -68,5 +68,5 @@ function countdown() {
 
 //Check status
 function checkStatus() {
-    if (!isPlaying && time === 0 message.innerHTML = 'Game Over.Try Again?')
+    if (!isPlaying && time === 0 message.innerHTML = 'Game Over.Try Again?');
 }
