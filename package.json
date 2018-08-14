@@ -1,0 +1,14 @@
+{
+  "name": "typingtest",
+  "version": "1.0.0",
+  "description": "Speed typing challenge",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "C05M1CR1D3R",
+  "license": "MIT"
+}
