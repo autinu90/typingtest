@@ -15,7 +15,20 @@ const message = document.querySelector('#message');
 const seconds = document.querySelector('#seconds');
 
 const words = [
-    'abstract', 'addEventListener', 'alert', 'any', 'applicationCache', 'as', 'async', 'atob', 'AbortController', 'AbortSignal', 'ActiveXObject', 'AnalyserNode', 'ANGLE_instanced_arrays', 'Animation'
+    'abstract',
+    'addEventListener',
+    'alert',
+    'any',
+    'applicationCache',
+    'as',
+    'async',
+    'atob',
+    'AbortController',
+    'AbortSignal',
+    'ActiveXObject',
+    'AnalyserNode',
+    'ANGLE_instanced_arrays',
+    'Animation'
 ];
 
 //Initialize Game
