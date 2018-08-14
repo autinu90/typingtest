@@ -37,7 +37,7 @@ function init() {
     //load word from array
     showWord(words);
     // Call countdown every second
-    setInterval(countdown,1000);
+    setInterval(countdown, 1000);
 }
 
 //Pick &show random word
@@ -49,19 +49,17 @@ function showWord(words) {
 }
 
 //Countdown
-function countdown(){
-// make sure time is not run out
-if(time >0){
-    //decrement
-    time --;
-}else if (time === 0){
-    //Game Over
-    console.log('Game Over');
-    isPlaying= false;
+function countdown() {
+    // make sure time is not run out
+    if (time > 0) {
+        //decrement
+        time--;
+    } else if (time === 0) {
+        //Game Over
+        // console.log('Game Over');
+        isPlaying = false;
 
-}
-//Show time
-timeDisplay.innerHTML = time;
-}
-
+    }
+    //Show time
+    timeDisplay.innerHTML = time;
 }
