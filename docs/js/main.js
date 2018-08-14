@@ -58,7 +58,7 @@ function countdown() {
         time--;
     } else if (time === 0) {
         //Game Over
-        console.log('Game Over');
+        //  console.log('Game Over');
         isPlaying = false;
 
     }
@@ -68,5 +68,7 @@ function countdown() {
 
 //Check status
 function checkStatus() {
-    if (!isPlaying && time === 0 message.innerHTML = 'Game Over.Try Again?');
+    if (!isPlaying && time === 0) {
+        message.innerHTML = 'Game Over.Try Again?';
+    }
 }
