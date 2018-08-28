@@ -8,9 +8,15 @@ const levels = {
     medium: 3,
     hard: 1
 }
-// Level Select
-const currentLevel = levels.easy;
 
+/*/ Level Select
+if (score == < 10) {
+    const currentLevel = levels.easy;
+} else(score == > 10) {
+    const currentLevel = levels.medium;
+} else(score == > 20) {
+    const currentLevel = levels.hard;
+}*/
 
 let time = currentLevel;
 let score = 0;
@@ -38,7 +44,20 @@ const words = [
     'ActiveXObject',
     'AnalyserNode',
     'ANGLE_instanced_arrays',
-    'Animation'
+    'Animation',
+    'AnimationEffect',
+    'AnimationEvent',
+    'AnimationPlaybackEvent',
+    'AnimationTimeline',
+    'ApplicationCache',
+    'Array',
+    'ArrayBuffer',
+    'Attr',
+    'Audio',
+    'AudioBuffer',
+
+
+    'checkStatus'
 ];
 
 //Initialize Game
