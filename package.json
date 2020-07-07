@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "node-sass": "^4.9.3",
-    "npm": "^6.6.0",
+    "npm": "^6.14.6",
     "sass": "^1.11.0"
   }
 }
