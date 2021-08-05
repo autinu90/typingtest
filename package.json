@@ -12,8 +12,8 @@
   "author": "C05M1CR1D3R",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^4.9.3",
-    "npm": "^6.6.0",
+    "node-sass": "^5.0.0",
+    "npm": "^7.0.0",
     "sass": "^1.11.0"
   }
 }
